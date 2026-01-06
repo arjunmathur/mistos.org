@@ -4,11 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>mistos.org</title>
+  <style>
+    h1 {
+      word-break: break-all;
+    }
+  </style>
 </head>
 <body>
   <h1 id="title"></h1>
   <script>
-    const mCount = Math.floor(Math.random() * 96) + 5;
+    const mCount = Math.floor(Math.random() * 1000) + 5;
     document.getElementById('title').textContent = 'm'.repeat(mCount) + 'istos';
   </script>
 </body>
