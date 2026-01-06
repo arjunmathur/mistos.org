@@ -6,7 +6,11 @@
   <title>mistos.org</title>
 </head>
 <body>
-  <h1>mmmmmmmmmmmmistos</h1>
+  <h1 id="title"></h1>
+  <script>
+    const mCount = Math.floor(Math.random() * 96) + 5;
+    document.getElementById('title').textContent = 'm'.repeat(mCount) + 'istos';
+  </script>
 </body>
 </html>
 
